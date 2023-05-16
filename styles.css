@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --color-grey: #eee;
+    --color-dark-grey: #222831;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    /* scroll-behavior: smooth; */
+}
+
+body {
+    font-family: "Open Sans", sans-serif; 
+}
+p {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0%;
+    left: 20%;
+    width: 100%;
+    background: var(--main-red);
+    align-items: center;
+    font-size: 1.5rem;
+  } 
+ 
+  #header-img {
+    width: 20%;
+    height: 10%;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 768px) {
+   html {
+     font-size: 78.5%;
+   } 
+  }
+
+  .icon1 {
+    width: 100%;
+    background-color: green;
+    font-size: 3rem;
+    color: white;
+    display: block;
+    right: 0%;
+    left: 10%;
+
+  }
+
+  .Description {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+
+  }
+
+  .Title {
+    font-size:  1.5rem;
+    color: black;
+  }
+
+  .views {
+    font-size: 1rem;
+    color: grey;
+  }
+  .Product {
+    justify-content: center;
+  }
+
+  form {
+    font-size: 2rem;
+    width: 100%;
+    background-color: white;
+    color: black;
+    height: 100%;
+
+  }
+
+  .comment {
+    font-size: 2rem;
+    box-sizing: content-box;
+    color: black;
+  }
+
+  .submit {
+    background-color: greenyellow;
+    font-size: 2rem;
+  }
